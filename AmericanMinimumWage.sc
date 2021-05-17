@@ -18,6 +18,8 @@ What the code can do?
 
 //Prerequisites(0)
 
+spark-shell
+
 var data = sc.textFile("minWageDataSample.csv")
 //data: org.apache.spark.rdd.RDD[String] = minWageDataSample.csv MapPartitionsRDD[3] at textFile at <console>:24
 
